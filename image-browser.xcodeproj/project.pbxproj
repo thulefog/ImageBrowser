@@ -15,6 +15,7 @@
 		94634E1109E2DEBE001CBBB0 /* ImageBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */; };
 		E44E568220E48107005D6EEE /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44E568020E48107005D6EEE /* FileReader.cpp */; };
 		E44E568420E483D1005D6EEE /* FileReaderBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = E44E568320E483D1005D6EEE /* FileReaderBridge.mm */; };
+		E44E568820E7FC58005D6EEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E44E568720E7FC57005D6EEE /* README.md */; };
 		E45CAD5120E0100E00319014 /* vr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3220E0100D00319014 /* vr.cpp */; };
 		E45CAD5220E0100E00319014 /* defs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3320E0100D00319014 /* defs.cpp */; };
 		E45CAD5320E0100E00319014 /* dicom_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3420E0100D00319014 /* dicom_reader.cpp */; };
@@ -53,6 +54,7 @@
 		E44E568120E48107005D6EEE /* FileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileReader.hpp; sourceTree = "<group>"; };
 		E44E568320E483D1005D6EEE /* FileReaderBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FileReaderBridge.mm; sourceTree = "<group>"; };
 		E44E568520E48416005D6EEE /* FileReaderBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileReaderBridge.h; sourceTree = "<group>"; };
+		E44E568720E7FC57005D6EEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E45CAD3220E0100D00319014 /* vr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vr.cpp; sourceTree = "<group>"; };
 		E45CAD3320E0100D00319014 /* defs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = defs.cpp; sourceTree = "<group>"; };
 		E45CAD3420E0100D00319014 /* dicom_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dicom_reader.cpp; sourceTree = "<group>"; };
@@ -138,8 +140,9 @@
 		29B97314FDCFA39411CA2CEA /* image-browser */ = {
 			isa = PBXGroup;
 			children = (
-				E44E567F20E480D0005D6EEE /* Adapters */,
+				E44E568720E7FC57005D6EEE /* README.md */,
 				53056F88131D7C0700880CEB /* ReadMe.txt */,
+				E44E567F20E480D0005D6EEE /* Adapters */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -292,6 +295,7 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				E45CAD5A20E0100E00319014 /* README.md in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E44E568820E7FC58005D6EEE /* README.md in Resources */,
 				E45CAD5520E0100E00319014 /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
