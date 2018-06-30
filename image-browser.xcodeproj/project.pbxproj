@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		941381660A4C429F0070F749 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941381650A4C429F0070F749 /* Quartz.framework */; };
+		94634E1109E2DEBE001CBBB0 /* ImageBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */; };
+		E44E568220E48107005D6EEE /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44E568020E48107005D6EEE /* FileReader.cpp */; };
+		E44E568420E483D1005D6EEE /* FileReaderBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = E44E568320E483D1005D6EEE /* FileReaderBridge.mm */; };
+		E45CAD5120E0100E00319014 /* vr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3220E0100D00319014 /* vr.cpp */; };
+		E45CAD5220E0100E00319014 /* defs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3320E0100D00319014 /* defs.cpp */; };
+		E45CAD5320E0100E00319014 /* dicom_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3420E0100D00319014 /* dicom_reader.cpp */; };
+		E45CAD5420E0100E00319014 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3520E0100D00319014 /* util.cpp */; };
+		E45CAD5520E0100E00319014 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = E45CAD3720E0100D00319014 /* CMakeLists.txt */; };
+		E45CAD5620E0100E00319014 /* data_element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3A20E0100D00319014 /* data_element.cpp */; };
+		E45CAD5720E0100E00319014 /* dcmlite.pro in Resources */ = {isa = PBXBuildFile; fileRef = E45CAD3B20E0100D00319014 /* dcmlite.pro */; };
+		E45CAD5820E0100E00319014 /* data_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3C20E0100D00319014 /* data_set.cpp */; };
+		E45CAD5920E0100E00319014 /* tag_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD3D20E0100D00319014 /* tag_table.cpp */; };
+		E45CAD5A20E0100E00319014 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E45CAD4320E0100D00319014 /* README.md */; };
+		E45CAD5B20E0100E00319014 /* tag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD4520E0100D00319014 /* tag.cpp */; };
+		E45CAD5C20E0100E00319014 /* binary_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD4820E0100D00319014 /* binary_file.cpp */; };
+		E45CAD5D20E0100E00319014 /* read_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD4A20E0100D00319014 /* read_handler.cpp */; };
+		E45CAD5E20E0100E00319014 /* visitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD4C20E0100E00319014 /* visitor.cpp */; };
+		E45CAD5F20E0100E00319014 /* dict.py in Resources */ = {isa = PBXBuildFile; fileRef = E45CAD4D20E0100E00319014 /* dict.py */; };
+		E45CAD6020E0100E00319014 /* data_dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45CAD4E20E0100E00319014 /* data_dictionary.cpp */; };
+		E45CAD6120E0100E00319014 /* dict.txt in Resources */ = {isa = PBXBuildFile; fileRef = E45CAD5020E0100E00319014 /* dict.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* image-browser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "image-browser_Prefix.pch"; sourceTree = "<group>"; };
+		53056F88131D7C0700880CEB /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941381650A4C429F0070F749 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		94634E0E09E2DEBE001CBBB0 /* ImageBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageBrowserController.h; sourceTree = "<group>"; };
+		94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserController.m; sourceTree = "<group>"; };
+		E44E568020E48107005D6EEE /* FileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileReader.cpp; sourceTree = "<group>"; };
+		E44E568120E48107005D6EEE /* FileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileReader.hpp; sourceTree = "<group>"; };
+		E44E568320E483D1005D6EEE /* FileReaderBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FileReaderBridge.mm; sourceTree = "<group>"; };
+		E44E568520E48416005D6EEE /* FileReaderBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileReaderBridge.h; sourceTree = "<group>"; };
+		E45CAD3220E0100D00319014 /* vr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vr.cpp; sourceTree = "<group>"; };
+		E45CAD3320E0100D00319014 /* defs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = defs.cpp; sourceTree = "<group>"; };
+		E45CAD3420E0100D00319014 /* dicom_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dicom_reader.cpp; sourceTree = "<group>"; };
+		E45CAD3520E0100D00319014 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		E45CAD3620E0100D00319014 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		E45CAD3720E0100D00319014 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E45CAD3820E0100D00319014 /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		E45CAD3920E0100D00319014 /* read_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read_handler.h; sourceTree = "<group>"; };
+		E45CAD3A20E0100D00319014 /* data_element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_element.cpp; sourceTree = "<group>"; };
+		E45CAD3B20E0100D00319014 /* dcmlite.pro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dcmlite.pro; sourceTree = "<group>"; };
+		E45CAD3C20E0100D00319014 /* data_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_set.cpp; sourceTree = "<group>"; };
+		E45CAD3D20E0100D00319014 /* tag_table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tag_table.cpp; sourceTree = "<group>"; };
+		E45CAD3E20E0100D00319014 /* data_element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_element.h; sourceTree = "<group>"; };
+		E45CAD3F20E0100D00319014 /* tag_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag_table.h; sourceTree = "<group>"; };
+		E45CAD4020E0100D00319014 /* dicom_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dicom_reader.h; sourceTree = "<group>"; };
+		E45CAD4120E0100D00319014 /* data_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_entry.h; sourceTree = "<group>"; };
+		E45CAD4220E0100D00319014 /* visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitor.h; sourceTree = "<group>"; };
+		E45CAD4320E0100D00319014 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E45CAD4420E0100D00319014 /* binary_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary_file.h; sourceTree = "<group>"; };
+		E45CAD4520E0100D00319014 /* tag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tag.cpp; sourceTree = "<group>"; };
+		E45CAD4620E0100D00319014 /* vr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vr.h; sourceTree = "<group>"; };
+		E45CAD4720E0100D00319014 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		E45CAD4820E0100D00319014 /* binary_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binary_file.cpp; sourceTree = "<group>"; };
+		E45CAD4920E0100D00319014 /* dcmlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dcmlite.h; sourceTree = "<group>"; };
+		E45CAD4A20E0100D00319014 /* read_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = read_handler.cpp; sourceTree = "<group>"; };
+		E45CAD4B20E0100D00319014 /* data_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_set.h; sourceTree = "<group>"; };
+		E45CAD4C20E0100E00319014 /* visitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = visitor.cpp; sourceTree = "<group>"; };
+		E45CAD4D20E0100E00319014 /* dict.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = dict.py; sourceTree = "<group>"; };
+		E45CAD4E20E0100E00319014 /* data_dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_dictionary.cpp; sourceTree = "<group>"; };
+		E45CAD4F20E0100E00319014 /* data_dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_dictionary.h; sourceTree = "<group>"; };
+		E45CAD5020E0100E00319014 /* dict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dict.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				941381660A4C429F0070F749 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94634E0E09E2DEBE001CBBB0 /* ImageBrowserController.h */,
+				94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941381650A4C429F0070F749 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ImageBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* image-browser */ = {
+			isa = PBXGroup;
+			children = (
+				E44E567F20E480D0005D6EEE /* Adapters */,
+				53056F88131D7C0700880CEB /* ReadMe.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "image-browser";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* image-browser_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44E567F20E480D0005D6EEE /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				E45CAD3120E0100D00319014 /* dcmlite */,
+				E44E568020E48107005D6EEE /* FileReader.cpp */,
+				E44E568120E48107005D6EEE /* FileReader.hpp */,
+				E44E568320E483D1005D6EEE /* FileReaderBridge.mm */,
+				E44E568520E48416005D6EEE /* FileReaderBridge.h */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		E45CAD3120E0100D00319014 /* dcmlite */ = {
+			isa = PBXGroup;
+			children = (
+				E45CAD3220E0100D00319014 /* vr.cpp */,
+				E45CAD3320E0100D00319014 /* defs.cpp */,
+				E45CAD3420E0100D00319014 /* dicom_reader.cpp */,
+				E45CAD3520E0100D00319014 /* util.cpp */,
+				E45CAD3620E0100D00319014 /* defs.h */,
+				E45CAD3720E0100D00319014 /* CMakeLists.txt */,
+				E45CAD3820E0100D00319014 /* tag.h */,
+				E45CAD3920E0100D00319014 /* read_handler.h */,
+				E45CAD3A20E0100D00319014 /* data_element.cpp */,
+				E45CAD3B20E0100D00319014 /* dcmlite.pro */,
+				E45CAD3C20E0100D00319014 /* data_set.cpp */,
+				E45CAD3D20E0100D00319014 /* tag_table.cpp */,
+				E45CAD3E20E0100D00319014 /* data_element.h */,
+				E45CAD3F20E0100D00319014 /* tag_table.h */,
+				E45CAD4020E0100D00319014 /* dicom_reader.h */,
+				E45CAD4120E0100D00319014 /* data_entry.h */,
+				E45CAD4220E0100D00319014 /* visitor.h */,
+				E45CAD4320E0100D00319014 /* README.md */,
+				E45CAD4420E0100D00319014 /* binary_file.h */,
+				E45CAD4520E0100D00319014 /* tag.cpp */,
+				E45CAD4620E0100D00319014 /* vr.h */,
+				E45CAD4720E0100D00319014 /* util.h */,
+				E45CAD4820E0100D00319014 /* binary_file.cpp */,
+				E45CAD4920E0100D00319014 /* dcmlite.h */,
+				E45CAD4A20E0100D00319014 /* read_handler.cpp */,
+				E45CAD4B20E0100D00319014 /* data_set.h */,
+				E45CAD4C20E0100E00319014 /* visitor.cpp */,
+				E45CAD4D20E0100E00319014 /* dict.py */,
+				E45CAD4E20E0100E00319014 /* data_dictionary.cpp */,
+				E45CAD4F20E0100E00319014 /* data_dictionary.h */,
+				E45CAD5020E0100E00319014 /* dict.txt */,
+			);
+			path = dcmlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ImageBrowser" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageBrowser;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "image-browser";
+			productReference = 8D1107320486CEB800E47090 /* ImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = H2ST88K7QB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "image-browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* image-browser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ImageBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45CAD5F20E0100E00319014 /* dict.py in Resources */,
+				E45CAD5720E0100E00319014 /* dcmlite.pro in Resources */,
+				E45CAD6120E0100E00319014 /* dict.txt in Resources */,
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				E45CAD5A20E0100E00319014 /* README.md in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E45CAD5520E0100E00319014 /* CMakeLists.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45CAD5C20E0100E00319014 /* binary_file.cpp in Sources */,
+				E45CAD6020E0100E00319014 /* data_dictionary.cpp in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				94634E1109E2DEBE001CBBB0 /* ImageBrowserController.m in Sources */,
+				E44E568220E48107005D6EEE /* FileReader.cpp in Sources */,
+				E45CAD5820E0100E00319014 /* data_set.cpp in Sources */,
+				E45CAD5320E0100E00319014 /* dicom_reader.cpp in Sources */,
+				E45CAD5B20E0100E00319014 /* tag.cpp in Sources */,
+				E45CAD5120E0100E00319014 /* vr.cpp in Sources */,
+				E45CAD5620E0100E00319014 /* data_element.cpp in Sources */,
+				E45CAD5220E0100E00319014 /* defs.cpp in Sources */,
+				E45CAD5420E0100E00319014 /* util.cpp in Sources */,
+				E45CAD5D20E0100E00319014 /* read_handler.cpp in Sources */,
+				E44E568420E483D1005D6EEE /* FileReaderBridge.mm in Sources */,
+				E45CAD5E20E0100E00319014 /* visitor.cpp in Sources */,
+				E45CAD5920E0100E00319014 /* tag_table.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = H2ST88K7QB;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.samplecode.${PRODUCT_NAME:identifier}";
+				PRODUCT_NAME = ImageBrowser;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H2ST88K7QB;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.samplecode.${PRODUCT_NAME:identifier}";
+				PRODUCT_NAME = ImageBrowser;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "image-browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

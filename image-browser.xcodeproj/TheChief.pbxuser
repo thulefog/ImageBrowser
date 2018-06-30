@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AB115189136F9A000043A835 /* ImageBrowser */;
+		activeTarget = 8D1107260486CEB800E47090 /* ImageBrowser */;
+		breakpoints = (
+			ABC4BE5F1372474F003C124E /* ImageBrowserController.m:373 */,
+			ABC4BEBA13724E0C003C124E /* ImageBrowserController.m:390 */,
+		);
+		codeSenseManager = AB1151A3136F9A120043A835 /* Code sense */;
+		executables = (
+			AB115189136F9A000043A835 /* ImageBrowser */,
+		);
+		expressions = (
+			oldPath,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1095,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326253293;
+			PBXWorkspaceStateSaveDate = 326253293;
+		};
+		perUserProjectItems = {
+			ABC4BE80137248D7003C124E /* PBXTextBookmark */ = ABC4BE80137248D7003C124E /* PBXTextBookmark */;
+			ABC4BEBE13724E12003C124E /* PBXTextBookmark */ = ABC4BEBE13724E12003C124E /* PBXTextBookmark */;
+			ABC4BED113725AF2003C124E /* PBXTextBookmark */ = ABC4BED113725AF2003C124E /* PBXTextBookmark */;
+		};
+		sourceControlManager = AB1151A2136F9A120043A835 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* ImageBrowser */ = {
+		activeExec = 0;
+		executables = (
+			AB115189136F9A000043A835 /* ImageBrowser */,
+		);
+	};
+	94634E0E09E2DEBE001CBBB0 /* ImageBrowserController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 910}}";
+			sepNavSelRange = "{2879, 0}";
+			sepNavVisRange = "{1500, 1477}";
+		};
+	};
+	94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 6006}}";
+			sepNavSelRange = "{11884, 0}";
+			sepNavVisRange = "{11154, 1264}";
+		};
+	};
+	AB115189136F9A000043A835 /* ImageBrowser */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImageBrowser;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fs = 1;
+			$gs = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	AB1151A2136F9A120043A835 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AB1151A3136F9A120043A835 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ABC4BE5F1372474F003C124E /* ImageBrowserController.m:373 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */;
+		functionName = "-renameFiles";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 373;
+		location = ImageBrowser;
+		modificationTime = 326258487.951436;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ABC4BE80137248D7003C124E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94634E0E09E2DEBE001CBBB0 /* ImageBrowserController.h */;
+		name = "ImageBrowserController.h: 56";
+		rLen = 0;
+		rLoc = 2811;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 1573;
+	};
+	ABC4BEBA13724E0C003C124E /* ImageBrowserController.m:390 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */;
+		functionName = "-renameFiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 390;
+		location = ImageBrowser;
+		modificationTime = 326258476.892125;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ABC4BEBE13724E12003C124E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */;
+		name = "ImageBrowserController.m: 415";
+		rLen = 0;
+		rLoc = 12399;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 11340;
+	};
+	ABC4BED113725AF2003C124E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94634E0F09E2DEBE001CBBB0 /* ImageBrowserController.m */;
+		name = "ImageBrowserController.m: 404";
+		rLen = 0;
+		rLoc = 11884;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 11154;
+	};
+}
